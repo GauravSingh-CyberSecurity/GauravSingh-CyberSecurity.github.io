@@ -34,7 +34,7 @@ linkedin_username: your-linkedin-username
 twitter_username: your-twitter-username
 
 # Variables
-baseurl: "/cybersecurity-portfolio"
+baseurl: ""
 url: "https://singhggithub.github.io"
 
 # Collections
