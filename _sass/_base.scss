@@ -1,0 +1,227 @@
+// Reset and base styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: $font-size-base;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-base;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-tight;
+  margin-bottom: $spacing-md;
+  color: $primary-color;
+}
+
+h1 {
+  font-size: $font-size-h1;
+  font-weight: $font-weight-bold;
+}
+
+h2 {
+  font-size: $font-size-h2;
+}
+
+h3 {
+  font-size: $font-size-h3;
+}
+
+h4 {
+  font-size: $font-size-h4;
+}
+
+p {
+  margin-bottom: $spacing-md;
+  color: $text-color;
+}
+
+a {
+  color: $secondary-color;
+  text-decoration: none;
+  transition: color $transition-fast;
+
+  &:hover,
+  &:focus {
+    color: darken($secondary-color, 10%);
+    text-decoration: underline;
+  }
+}
+
+// Lists
+ul, ol {
+  margin-bottom: $spacing-md;
+  padding-left: $spacing-lg;
+}
+
+li {
+  margin-bottom: $spacing-xs;
+}
+
+// Code
+code {
+  font-family: $font-family-mono;
+  font-size: 0.9em;
+  background-color: $background-alt;
+  padding: $spacing-xs $spacing-sm;
+  border-radius: $border-radius-sm;
+  border: 1px solid $border-color;
+}
+
+pre {
+  font-family: $font-family-mono;
+  background-color: $background-alt;
+  padding: $spacing-md;
+  border-radius: $border-radius-md;
+  border: 1px solid $border-color;
+  overflow-x: auto;
+  margin-bottom: $spacing-md;
+
+  code {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: $border-radius-md;
+}
+
+// Blockquotes
+blockquote {
+  border-left: 4px solid $secondary-color;
+  padding-left: $spacing-md;
+  margin: $spacing-lg 0;
+  font-style: italic;
+  color: $text-light;
+}
+
+// Horizontal rule
+hr {
+  border: none;
+  height: 1px;
+  background-color: $border-color;
+  margin: $spacing-xl 0;
+}
+
+// Tables
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: $spacing-md;
+
+  th,
+  td {
+    padding: $spacing-sm $spacing-md;
+    text-align: left;
+    border-bottom: 1px solid $border-color;
+  }
+
+  th {
+    font-weight: $font-weight-semibold;
+    background-color: $background-alt;
+  }
+}
+
+// Form elements
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  padding: $spacing-sm $spacing-md;
+  border: 1px solid $border-color;
+  border-radius: $border-radius-sm;
+  background-color: $background-color;
+  transition: border-color $transition-fast;
+
+  &:focus {
+    outline: none;
+    border-color: $secondary-color;
+    box-shadow: 0 0 0 2px rgba($secondary-color, 0.2);
+  }
+}
+
+// Buttons
+.btn {
+  display: inline-block;
+  padding: $spacing-sm $spacing-lg;
+  font-weight: $font-weight-medium;
+  text-align: center;
+  border: none;
+  border-radius: $border-radius-sm;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all $transition-fast;
+
+  &.btn-primary {
+    background-color: $secondary-color;
+    color: white;
+
+    &:hover {
+      background-color: darken($secondary-color, 10%);
+      text-decoration: none;
+    }
+  }
+
+  &.btn-secondary {
+    background-color: transparent;
+    color: $secondary-color;
+    border: 1px solid $secondary-color;
+
+    &:hover {
+      background-color: $secondary-color;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+// Utility classes
+.wrapper {
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding: 0 $spacing-md;
+
+  @media (min-width: $tablet) {
+    padding: 0 $spacing-lg;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-light {
+  color: $text-light;
+}
+
+.mb-0 { margin-bottom: 0; }
+.mb-1 { margin-bottom: $spacing-sm; }
+.mb-2 { margin-bottom: $spacing-md; }
+.mb-3 { margin-bottom: $spacing-lg; }
+.mb-4 { margin-bottom: $spacing-xl; }
+
+.mt-0 { margin-top: 0; }
+.mt-1 { margin-top: $spacing-sm; }
+.mt-2 { margin-top: $spacing-md; }
+.mt-3 { margin-top: $spacing-lg; }
+.mt-4 { margin-top: $spacing-xl; }

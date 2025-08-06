@@ -1,0 +1,465 @@
+// Header styles
+.site-header {
+  background-color: $background-color;
+  border-bottom: 1px solid $border-color;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: $shadow-sm;
+
+  .wrapper {
+    padding-top: $spacing-md;
+    padding-bottom: $spacing-md;
+  }
+
+  .site-nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .site-title {
+    text-decoration: none;
+    color: $primary-color;
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: $font-weight-bold;
+      margin-bottom: 0;
+      line-height: 1.2;
+    }
+
+    .tagline {
+      font-size: $font-size-small;
+      color: $text-light;
+      font-weight: $font-weight-normal;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .site-nav {
+    .nav-trigger {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    .trigger {
+      display: flex;
+      gap: $spacing-lg;
+
+      .page-link {
+        font-weight: $font-weight-medium;
+        color: $text-color;
+        padding: $spacing-sm 0;
+        position: relative;
+
+        &:hover,
+        &.active {
+          color: $secondary-color;
+          text-decoration: none;
+        }
+
+        &.active::after {
+          content: '';
+          position: absolute;
+          bottom: -$spacing-xs;
+          left: 0;
+          right: 0;
+          height: 2px;
+          background-color: $secondary-color;
+        }
+      }
+    }
+
+    @media (max-width: $tablet) {
+      position: absolute;
+      top: 0;
+      right: $spacing-md;
+
+      .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
+        cursor: pointer;
+
+        > svg {
+          width: 18px;
+          height: 15px;
+
+          path {
+            fill: $text-color;
+          }
+        }
+      }
+
+      .trigger {
+        clear: both;
+        display: none;
+        flex-direction: column;
+        background-color: $background-color;
+        border: 1px solid $border-color;
+        border-radius: $border-radius-md;
+        box-shadow: $shadow-md;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        min-width: 200px;
+        padding: $spacing-md;
+        gap: $spacing-md;
+      }
+
+      .nav-trigger:checked ~ .trigger {
+        display: flex;
+      }
+    }
+  }
+}
+
+// Main content
+.page-content {
+  flex: 1;
+  padding: $spacing-xl 0;
+}
+
+// Hero section
+.hero {
+  text-align: center;
+  padding: $spacing-xxl 0;
+  background: linear-gradient(135deg, $background-alt 0%, lighten($secondary-color, 45%) 100%);
+
+  .hero-content {
+    max-width: $content-max-width;
+    margin: 0 auto;
+  }
+
+  .hero-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto $spacing-lg;
+    border: 4px solid white;
+    box-shadow: $shadow-lg;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: $spacing-sm;
+    
+    @media (max-width: $tablet) {
+      font-size: 2rem;
+    }
+  }
+
+  .hero-tagline {
+    font-size: $font-size-large;
+    color: $text-light;
+    margin-bottom: $spacing-lg;
+  }
+
+  .hero-description {
+    font-size: $font-size-large;
+    margin-bottom: $spacing-xl;
+    line-height: 1.7;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: $spacing-md;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+// Cards
+.card {
+  background-color: $background-color;
+  border: 1px solid $border-color;
+  border-radius: $border-radius-lg;
+  padding: $spacing-lg;
+  box-shadow: $shadow-sm;
+  transition: transform $transition-fast, box-shadow $transition-fast;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: $shadow-md;
+  }
+
+  .card-title {
+    margin-bottom: $spacing-sm;
+    color: $primary-color;
+  }
+
+  .card-meta {
+    font-size: $font-size-small;
+    color: $text-light;
+    margin-bottom: $spacing-md;
+  }
+
+  .card-excerpt {
+    margin-bottom: $spacing-md;
+  }
+
+  .card-link {
+    font-weight: $font-weight-medium;
+    color: $secondary-color;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+// Grid layouts
+.grid {
+  display: grid;
+  gap: $spacing-lg;
+
+  &.grid-2 {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  &.grid-3 {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+// Skills section
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: $spacing-md;
+  margin-top: $spacing-lg;
+
+  .skill-item {
+    background-color: $background-alt;
+    padding: $spacing-md;
+    border-radius: $border-radius-md;
+    text-align: center;
+    border: 1px solid $border-color;
+
+    .skill-icon {
+      font-size: 2rem;
+      color: $secondary-color;
+      margin-bottom: $spacing-sm;
+    }
+
+    .skill-name {
+      font-weight: $font-weight-semibold;
+      margin-bottom: $spacing-xs;
+    }
+  }
+}
+
+// Footer
+.site-footer {
+  background-color: $primary-color;
+  color: white;
+  padding: $spacing-xxl 0 $spacing-lg;
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: $spacing-xl;
+    margin-bottom: $spacing-xl;
+  }
+
+  .footer-section {
+    h3 {
+      color: white;
+      margin-bottom: $spacing-md;
+    }
+
+    p {
+      color: lighten($primary-color, 30%);
+      margin-bottom: $spacing-md;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: $spacing-sm;
+
+        a {
+          color: lighten($primary-color, 30%);
+          text-decoration: none;
+
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+
+    a {
+      color: lighten($primary-color, 30%);
+      text-decoration: none;
+      transition: color $transition-fast;
+
+      &:hover {
+        color: white;
+      }
+
+      i {
+        margin-right: $spacing-sm;
+        width: 20px;
+      }
+    }
+  }
+
+  .footer-bottom {
+    border-top: 1px solid lighten($primary-color, 20%);
+    padding-top: $spacing-lg;
+    text-align: center;
+
+    p {
+      color: lighten($primary-color, 30%);
+      margin-bottom: $spacing-sm;
+
+      a {
+        color: lighten($secondary-color, 20%);
+
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+// Post styles
+.post {
+  max-width: $content-max-width;
+  margin: 0 auto;
+
+  .post-header {
+    margin-bottom: $spacing-xl;
+    text-align: center;
+
+    .post-title {
+      margin-bottom: $spacing-sm;
+    }
+
+    .post-subtitle {
+      font-size: $font-size-large;
+      color: $text-light;
+      margin-bottom: $spacing-md;
+    }
+
+    .post-meta {
+      font-size: $font-size-small;
+      color: $text-light;
+    }
+  }
+
+  .post-content {
+    line-height: 1.8;
+
+    h2, h3, h4, h5, h6 {
+      margin-top: $spacing-xl;
+      margin-bottom: $spacing-md;
+    }
+  }
+
+  .post-footer {
+    margin-top: $spacing-xxl;
+    padding-top: $spacing-lg;
+    border-top: 1px solid $border-color;
+  }
+}
+
+.share-buttons {
+  display: flex;
+  gap: $spacing-md;
+  justify-content: center;
+
+  .share-button {
+    padding: $spacing-sm $spacing-md;
+    border-radius: $border-radius-sm;
+    text-decoration: none;
+    font-weight: $font-weight-medium;
+    transition: all $transition-fast;
+
+    &.twitter {
+      background-color: #1DA1F2;
+      color: white;
+
+      &:hover {
+        background-color: darken(#1DA1F2, 10%);
+        text-decoration: none;
+      }
+    }
+
+    &.linkedin {
+      background-color: #0077B5;
+      color: white;
+
+      &:hover {
+        background-color: darken(#0077B5, 10%);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// Related posts
+.related-posts {
+  margin-top: $spacing-xxl;
+  padding-top: $spacing-lg;
+  border-top: 1px solid $border-color;
+
+  h2 {
+    margin-bottom: $spacing-lg;
+  }
+
+  .post-list {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: $spacing-lg;
+      padding-bottom: $spacing-lg;
+      border-bottom: 1px solid $border-color;
+
+      &:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+    }
+
+    .post-meta {
+      font-size: $font-size-small;
+      color: $text-light;
+      margin-bottom: $spacing-sm;
+    }
+
+    .post-link {
+      font-size: $font-size-large;
+      font-weight: $font-weight-semibold;
+      color: $primary-color;
+
+      &:hover {
+        color: $secondary-color;
+        text-decoration: none;
+      }
+    }
+  }
+}

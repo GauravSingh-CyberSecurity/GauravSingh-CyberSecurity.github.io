@@ -1,0 +1,74 @@
+# Site settings
+title: Gaurav Singh
+email: gs.cyber.red@gmail.com
+description: "Cybersecurity Professional | VAPT Specialist | Security Researcher"
+tagline: "Hacker | Cyber Security Leader"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title.html
+
+# GitHub Pages specific settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Social media usernames
+github_username: singhggithub
+linkedin_username: your-linkedin-username
+twitter_username: your-twitter-username
+
+# Variables
+baseurl: "/merged-portfolio"
+url: "https://singhggithub.github.io"
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title.html
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Blog
+    url: /blog/
+  - title: Research
+    url: /research/
+  - title: Contact
+    url: /contact/
+
+# Include and exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .git
+  - .gitignore
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Site author
+author:
+  name: Gaurav Singh
+  bio: "Cybersecurity professional with 15+ years of experience in VAPT, penetration testing, and security research. Passionate about information security and creating content in the offensive security space."
+  location: "India"
+  skills:
+    - "Vulnerability Assessment & Penetration Testing"
+    - "Security Research"
+    - "Incident Response"
+    - "Compliance & Risk Assessment"
+    - "Security Tool Development"
