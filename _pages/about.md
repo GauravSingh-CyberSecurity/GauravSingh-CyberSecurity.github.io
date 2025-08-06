@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="hero" style="padding: 2rem 0;">
   <div class="hero-content">
-    <img src="{{ '/images/profile.jpg' | prepend: site.baseurl }}" alt="{{ site.author.name }}" class="hero-image">
+    <img src="{{ '/images/profile.svg' | prepend: site.baseurl }}" alt="{{ site.author.name }}" class="hero-image">
     <h1 class="hero-title">About {{ site.title }}</h1>
     <p class="hero-tagline">{{ site.tagline }}</p>
   </div>

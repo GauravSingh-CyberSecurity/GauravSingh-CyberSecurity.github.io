@@ -5,7 +5,7 @@ class: home
 
 <section class="hero">
   <div class="hero-content">
-    <img src="{{ '/images/profile.jpg' | prepend: site.baseurl }}" alt="{{ site.author.name }}" class="hero-image">
+    <img src="{{ '/images/profile.svg' | prepend: site.baseurl }}" alt="{{ site.author.name }}" class="hero-image">
     <h1 class="hero-title">{{ site.title }}</h1>
     <p class="hero-tagline">{{ site.tagline }}</p>
     <p class="hero-description">{{ site.author.bio }}</p>
