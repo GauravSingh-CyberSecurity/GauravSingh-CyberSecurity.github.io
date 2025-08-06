@@ -467,7 +467,7 @@
 // CV Page Styles
 .cv-container {
   .cv-header {
-    background: $secondary-bg;
+    background: $background-alt;
     padding: $spacing-lg;
     border-radius: $border-radius;
     margin-bottom: $spacing-lg;
@@ -477,7 +477,7 @@
     p {
       margin: 0;
       color: $text-light;
-      font-size: $font-size-medium;
+      font-size: $font-size-base;
     }
 
     a {
@@ -517,7 +517,7 @@
       font-weight: $font-weight-semibold;
       margin: 0 $spacing-sm;
       transition: all 0.3s ease;
-      font-size: $font-size-medium;
+      font-size: $font-size-base;
 
       &.btn-primary {
         background: $primary-color;
@@ -554,7 +554,7 @@
   margin: $spacing-xl 0;
 
   .skill-item {
-    background: $secondary-bg;
+    background: $background-alt;
     padding: $spacing-lg;
     border-radius: $border-radius;
     border-left: 4px solid $primary-color;
@@ -568,7 +568,7 @@
     h4 {
       margin: 0 0 $spacing-sm 0;
       color: $primary-color;
-      font-size: $font-size-medium;
+      font-size: $font-size-base;
 
       i {
         margin-right: $spacing-xs;
