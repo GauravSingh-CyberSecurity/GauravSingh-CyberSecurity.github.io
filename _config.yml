@@ -61,6 +61,8 @@ navigation:
     url: /blog/
   - title: Research
     url: /research/
+  - title: CV
+    url: /cv/
   - title: Contact
     url: /contact/
 
