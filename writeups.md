@@ -4,6 +4,15 @@ title: Writeups
 permalink: /writeups/
 ---
 
-I have recently developed an interest in penetration testing and therefore I have decided to improve myself in this area by completing information security challenges available online and documenting the solutions to the problems in the form of writeups.
+As a cybersecurity professional specializing in VAPT (Vulnerability Assessment and Penetration Testing), I document my security research, vulnerability findings, and penetration testing methodologies through detailed writeups.
 
-My first goal is to complete the <a href="http://overthewire.org/wargames/" target="_blank">OverTheWire Wargames</a> challenges which helps individuals interested in this area to learn and practice security concepts in the form of game challenges. You can view my completed writeups and monitor my progress <a href="/writeups/wargames/" target="_blank">here</a>.   
+This section includes:
+- **Vulnerability Research**: Analysis of discovered vulnerabilities and their exploitation techniques
+- **VAPT Reports**: Sanitized examples of professional vulnerability assessments
+- **CTF Writeups**: Solutions to Capture The Flag challenges and security competitions
+- **Security Tools**: Custom tools and scripts developed for penetration testing
+- **Bug Bounty Findings**: Responsible disclosure reports and methodologies
+
+My goal is to share knowledge with the cybersecurity community while continuously improving my skills through practical hands-on security testing and research.
+
+You can also find my security research and findings on my <a href="https://github.com/singhggithub" target="_blank">GitHub profile</a>.   
