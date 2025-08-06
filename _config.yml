@@ -15,6 +15,19 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+# GitHub Pages defaults
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "_projects"
+      type: "projects"
+    values:
+      layout: "project"
+
 # Social media usernames
 github_username: singhggithub
 linkedin_username: your-linkedin-username
@@ -26,6 +39,9 @@ url: "https://singhggithub.github.io"
 
 # Collections
 collections:
+  pages:
+    output: true
+    permalink: /:name/
   projects:
     output: true
     permalink: /projects/:name/
@@ -49,6 +65,8 @@ navigation:
     url: /contact/
 
 # Include and exclude
+include:
+  - _pages
 exclude:
   - Gemfile
   - Gemfile.lock
