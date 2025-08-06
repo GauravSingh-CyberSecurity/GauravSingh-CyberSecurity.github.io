@@ -6,7 +6,19 @@ permalink: /contact/
 
 # Get In Touch
 
-I'm always interested in discussing cybersecurity topics, exploring collaboration opportunities, and connecting with fellow security professionals. Whether you have questions about my research, want to discuss a project, or simply want to chat about the latest security trends, I'd love to hear from you.
+I'm always interested in discussing cybersecurity topics, VAPT methodologies, exploring collaboration opportunities, and connecting with fellow security professionals. Whether you have questions about penetration testing, want to discuss a security project, or simply want to chat about the latest vulnerabilities and attack vectors, I'd love to hear from you.
+
+<div style="background: #f8f9fa; padding: 2rem; border-radius: 8px; margin: 2rem 0; border-left: 4px solid #2c3e50;">
+  <h3 style="margin: 0 0 1rem 0; color: #2c3e50;">
+    <i class="fas fa-map-marker-alt"></i> Location & Contact
+  </h3>
+  <p style="margin: 0; color: #555;">
+    <strong>Gaurav Singh</strong><br>
+    Nagpur, Maharashtra<br>
+    <i class="fas fa-phone"></i> +91 9765809266<br>
+    <i class="fas fa-envelope"></i> gs.cyber.red@gmail.com
+  </p>
+</div>
 
 <div class="grid grid-2" style="margin-top: 3rem;">
 

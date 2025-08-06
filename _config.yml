@@ -1,8 +1,8 @@
 # Site settings
 title: Gaurav Singh
 email: gs.cyber.red@gmail.com
-description: "Cybersecurity Professional | VAPT Specialist | Security Researcher"
-tagline: "VAPT | Cyber Security Engineer"
+description: "Cybersecurity Engineer | VAPT Specialist | Information Security Engineer"
+tagline: "VAPT | Cyber Security Engineer | Penetration Testing"
 
 # Build settings
 markdown: kramdown
@@ -30,7 +30,7 @@ defaults:
 
 # Social media usernames
 github_username: singhggithub
-linkedin_username: your-linkedin-username
+linkedin_username: gaurav-singh-cybersecurity
 twitter_username: your-twitter-username
 
 # Variables
@@ -84,11 +84,13 @@ sass:
 # Site author
 author:
   name: Gaurav Singh
-  bio: "Cybersecurity professional with 15+ years of experience in VAPT, penetration testing, and security research. Passionate about information security and creating content in the offensive security space."
-  location: "India"
+  bio: "Cybersecurity Engineer specializing in Vulnerability Assessment and Penetration Testing (VAPT), with hands-on experience in exploiting OWASP Top 10, Web, API, Android misconfigurations, and business logic flaws across enterprise applications."
+  location: "Nagpur, Maharashtra"
+  phone: "+91 9765809266"
   skills:
-    - "Vulnerability Assessment & Penetration Testing"
-    - "Security Research"
-    - "Incident Response"
-    - "Compliance & Risk Assessment"
-    - "Security Tool Development"
+    - "Web/App Security (Burp Suite Pro, OWASP ZAP, Nmap)"
+    - "Exploitation (SQLMap, Metasploit, Nikto, John the Ripper)"
+    - "Reconnaissance (FFUF, Subfinder, Gobuster, Amass)"
+    - "Scripting (Python, JavaScript, Bash)"
+    - "Security Standards (OWASP Top 10, MITRE ATT&CK, CVE)"
+    - "Attack Vectors (SQLi, XSS, SSRF, RCE, IDOR, Auth Bypass)"

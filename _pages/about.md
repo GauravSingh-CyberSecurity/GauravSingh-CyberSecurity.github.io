@@ -16,50 +16,58 @@ permalink: /about/
 
 ## Professional Background
 
-Hi, I'm Gaurav Singh (aka @singhggithub). I've been a cybersecurity professional for over 15 years, specializing in vulnerability assessment and penetration testing (VAPT). I'm passionate about information security and continuously learning about the latest threats and defense mechanisms.
+Hi, I'm Gaurav Singh (aka @singhggithub). I'm a Cybersecurity Engineer specializing in Vulnerability Assessment and Penetration Testing (VAPT), with hands-on experience in exploiting OWASP Top 10, Web, API, Android misconfigurations, and business logic flaws across enterprise applications.
+
+Currently working as an Information Security Engineer at Harrier Information Systems PVT LTD, I'm proficient in discovering vulnerabilities related to authentication, authorization, injection flaws, business logic bypasses, server misconfigurations, and API-specific issues.
 
 ## What I Do
 
-- **Vulnerability Assessment & Penetration Testing (VAPT)**: Comprehensive security assessments to identify and exploit vulnerabilities in web applications, networks, and infrastructure
-- **Security Research**: Investigating new attack vectors, analyzing malware, and developing proof-of-concept exploits
-- **Incident Response**: Leading response efforts for security breaches and developing incident response procedures
-- **Compliance & Risk Assessment**: Ensuring organizations meet security standards like ISO 27001, PCI DSS, and GDPR
-- **Security Tool Development**: Creating custom tools and scripts to automate security testing and monitoring
+- **Black-box & Gray-box VAPT**: Comprehensive security assessments focusing on OWASP Top 10, API security flaws, and business logic vulnerabilities
+- **Exploit Development**: Automating test cases and exploit development using Python, Bash, and JavaScript
+- **Incident Response**: Leading end-to-end incident response and post-exploitation VAPT on web applications
+- **Security Tool Development**: Creating custom offensive security tools and PoCs, including Burp Suite extensions
+- **Red Team Operations**: Simulating advanced attacks including Kerberoasting, AS-REP Roasting, and Pass-the-Hash
 
 ## Experience & Expertise
 
 ### Technical Skills
-- **Programming Languages**: Python, JavaScript, Bash, PowerShell, C/C++
-- **Security Tools**: Burp Suite, OWASP ZAP, Nmap, Metasploit, Wireshark, Nessus
-- **Frameworks**: OWASP Top 10, NIST Cybersecurity Framework, PTES
-- **Cloud Security**: AWS, Azure, GCP security assessments
-- **Mobile Security**: Android and iOS application security testing
+- **Web/App Security**: Burp Suite Pro, Postman, OWASP ZAP, Nmap
+- **Exploitation Tools**: SQLMap, Metasploit, Nikto, John the Ripper, Hashcat
+- **Reconnaissance**: FFUF, Subfinder, Gobuster, Amass, WAFW00F
+- **Programming Languages**: Python, JavaScript, Bash
+- **Security Standards**: OWASP Top 10, MITRE ATT&CK, CVE
+- **Attack Vectors**: SQLi, XSS, SSRF, RCE, IDOR, File Inclusion, Auth Bypass, XXE, Command Injection, API Misconfig, BOLA, Broken Auth, CSRF, Subdomain Takeover, Clickjacking, Session Fixation, CORS Misconfig, Insecure Deserialization
 
-### Certifications
-- Certified Ethical Hacker (CEH)
-- CISSP - Certified Information Systems Security Professional
-- OSCP - Offensive Security Certified Professional
-- ISO 27001 Lead Auditor
+### Current Certifications & Training
+- **Bug Bounty Hunter** - Hack The Box Academy (2025)
+- **Practical Ethical Hacking – The Complete Course** - TCM Security (2024)
+- **Intro to Bug Bounty Hunting and Web Application Hacking** - NahamSec (2025)
 
 ## Recent Projects
 
-### Enterprise VAPT Assessment
-Led a comprehensive security assessment for a Fortune 500 company, identifying critical vulnerabilities in their web applications and providing detailed remediation guidance.
+### BNHS Incident Response: Broken Auth to RCE Exploitation Chain
+Led end-to-end incident response and conducted post-exploitation VAPT on Laravel, WordPress, and CodeIgniter applications. Successfully analyzed and reversed obfuscated PHP backdoors, removed SEO spam injections, and reinforced server entry vectors against RCE and web shell (Backdoor) attacks.
 
-### Custom Security Tool Development
-Developed automated VAPT tools that reduced testing time by 60% while improving coverage and accuracy of security assessments.
+### Custom Burp Suite Extension Development
+Created custom Burp Suite extension for detecting shell access patterns and automated exploit chains during black-box assessments, significantly improving the efficiency of vulnerability discovery.
 
-### Incident Response Leadership
-Managed response to a sophisticated APT attack, coordinating with forensics teams and implementing improved security controls.
+### Red Team Attack Simulation
+Simulated advanced red team attacks including Kerberoasting, AS-REP Roasting, and Pass-the-Hash using BloodHound and CrackMapExec for internal network reconnaissance and privilege escalation.
 
 ## Education & Training
 
+**Bachelor of Engineering in Computer Science (Cyber Security)**  
+Shri Ramdeobaba College of Engineering and Management (RCOEM) - 2024  
+CGPA: 7.6 / 10.0
+
+**Relevant Coursework**: Network Security, Operating Systems, Cryptography, Ethical Hacking, Web Application Security, Bug Bounty Hunting
+
 I believe in continuous learning and regularly participate in security conferences, CTF competitions, and training programs. I also contribute to the security community through:
 
-- **Speaking**: Presenting at cybersecurity conferences and meetups
-- **Training**: Conducting VAPT workshops and security awareness sessions
-- **Research**: Publishing vulnerability research and security advisories
-- **Mentoring**: Helping junior security professionals develop their skills
+- **Tool Development**: Creating offensive security tools and PoCs in Python for buffer overflows, bind shells, SSH brute forcing, keyloggers, and hash cracking
+- **Research**: Developing automated exploit chains and vulnerability assessment techniques
+- **Professional Practice**: Delivering detailed technical reports with PoCs and remediation steps for enterprise applications
+- **Mentoring**: Helping organizations strengthen their security posture through comprehensive VAPT assessments
 
 ## Personal Interests
 

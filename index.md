@@ -18,25 +18,27 @@ class: home
 
 <section class="wrapper">
   <div style="padding: 3rem 0;">
-    <h2 class="text-center mb-4">Expertise & Skills</h2>
+    <h2 class="text-center mb-4">Technical Expertise</h2>
     <div class="skills-grid">
       {% for skill in site.author.skills %}
       <div class="skill-item">
         <div class="skill-icon">
-          {% case skill %}
-            {% when 'Vulnerability Assessment & Penetration Testing' %}
-              <i class="fas fa-shield-alt"></i>
-            {% when 'Security Research' %}
-              <i class="fas fa-search"></i>
-            {% when 'Incident Response' %}
-              <i class="fas fa-ambulance"></i>
-            {% when 'Compliance & Risk Assessment' %}
-              <i class="fas fa-clipboard-check"></i>
-            {% when 'Security Tool Development' %}
-              <i class="fas fa-tools"></i>
-            {% else %}
-              <i class="fas fa-code"></i>
-          {% endcase %}
+          {% assign skill_lower = skill | downcase %}
+          {% if skill_lower contains 'web' or skill_lower contains 'app' %}
+            <i class="fas fa-shield-alt"></i>
+          {% elsif skill_lower contains 'exploitation' %}
+            <i class="fas fa-bug"></i>
+          {% elsif skill_lower contains 'reconnaissance' or skill_lower contains 'recon' %}
+            <i class="fas fa-search"></i>
+          {% elsif skill_lower contains 'scripting' %}
+            <i class="fas fa-code"></i>
+          {% elsif skill_lower contains 'standards' %}
+            <i class="fas fa-book"></i>
+          {% elsif skill_lower contains 'attack' %}
+            <i class="fas fa-crosshairs"></i>
+          {% else %}
+            <i class="fas fa-shield-alt"></i>
+          {% endif %}
         </div>
         <div class="skill-name">{{ skill }}</div>
       </div>
