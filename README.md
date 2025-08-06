@@ -4,7 +4,7 @@ A professional cybersecurity portfolio website showcasing my expertise in vulner
 
 ## 🚀 Live Site
 
-Visit the live portfolio at: [https://singhggithub.github.io/merged-portfolio/](https://singhggithub.github.io/merged-portfolio/)
+Visit the live portfolio at: [https://singhggithub.github.io/cybersecurity-portfolio/](https://singhggithub.github.io/cybersecurity-portfolio/)
 
 ## 📋 Features
 
@@ -26,7 +26,7 @@ Visit the live portfolio at: [https://singhggithub.github.io/merged-portfolio/](
 ## 📁 Structure
 
 ```
-merged-portfolio/
+cybersecurity-portfolio/
 ├── _includes/          # Reusable HTML components
 ├── _layouts/           # Page templates
 ├── _pages/            # Static pages (About, Projects, etc.)
@@ -81,8 +81,8 @@ The portfolio is fully responsive with breakpoints at:
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/singhggithub/merged-portfolio.git
-cd merged-portfolio
+git clone https://github.com/singhggithub/cybersecurity-portfolio.git
+cd cybersecurity-portfolio
 
 # Install dependencies
 bundle install
