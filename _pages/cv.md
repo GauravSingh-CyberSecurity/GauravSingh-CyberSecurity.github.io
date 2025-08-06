@@ -16,7 +16,7 @@ permalink: /cv/
 
 ## Professional Resume
 
-I embed a current version of my CV below. You can also [**download the PDF here**]({{ '/files/Gaurav_Singh_resume_2025.pdf' | prepend: site.baseurl }}).
+I embed a current version of my CV below. You can also [**download the PDF here**]({{ '/files/Gaurav_Security-Analyst_VAPT_2yrs_30days_np.pdf' | prepend: site.baseurl }}).
 
 <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 2rem 0; text-align: center; border: 1px solid #ecf0f1;">
   <p style="margin: 0; color: #7f8c8d; font-size: 1rem;">
@@ -35,18 +35,18 @@ I embed a current version of my CV below. You can also [**download the PDF here*
 
 <div style="width: 100%; height: 800px; border: 1px solid #ecf0f1; border-radius: 8px; overflow: hidden; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);">
   <iframe 
-    src="{{ '/files/Gaurav_Singh_resume_2025.pdf' | prepend: site.baseurl }}" 
+    src="{{ '/files/Gaurav_Security-Analyst_VAPT_2yrs_30days_np.pdf' | prepend: site.baseurl }}" 
     width="100%" 
     height="100%" 
     style="border: none;">
     <p>Your browser does not support PDFs. 
-      <a href="{{ '/files/Gaurav_Singh_resume_2025.pdf' | prepend: site.baseurl }}">Download the PDF</a> instead.
+      <a href="{{ '/files/Gaurav_Security-Analyst_VAPT_2yrs_30days_np.pdf' | prepend: site.baseurl }}">Download the PDF</a> instead.
     </p>
   </iframe>
 </div>
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="{{ '/files/Gaurav_Singh_resume_2025.pdf' | prepend: site.baseurl }}" 
+  <a href="{{ '/files/Gaurav_Security-Analyst_VAPT_2yrs_30days_np.pdf' | prepend: site.baseurl }}" 
      style="display: inline-block; padding: 12px 24px; background: #2c3e50; color: white; text-decoration: none; border-radius: 6px; font-weight: 500; margin: 0 1rem;">
     <i class="fas fa-download"></i> Download PDF
   </a>
