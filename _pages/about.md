@@ -17,7 +17,7 @@ permalink: /about/
 <h2 style="color: #2c3e50; margin-bottom: 1.5rem; font-size: 1.8rem;">🚀 Professional Background</h2>
 
 <div style="background: #f8f9fa; padding: 2rem; border-radius: 10px; border-left: 4px solid #3498db; margin: 2rem 0;">
-Hi, I'm <strong>Gaurav Singh</strong> (aka @singhggithub). I'm a <strong>Cybersecurity Engineer</strong> specializing in Vulnerability Assessment and Penetration Testing (VAPT), with hands-on experience in exploiting OWASP Top 10, Web, API, Android misconfigurations, and business logic flaws across enterprise applications.
+Hi, I'm <strong>Gaurav Singh</strong> (aka @GauravSingh-CyberSecurity). I'm a <strong>Cybersecurity Engineer</strong> specializing in Vulnerability Assessment and Penetration Testing (VAPT), with hands-on experience in exploiting OWASP Top 10, Web, API, Android misconfigurations, and business logic flaws across enterprise applications.
 
 Currently working as an <strong>Information Security Engineer at Harrier Information Systems PVT LTD</strong>, I'm proficient in discovering vulnerabilities related to authentication, authorization, injection flaws, business logic bypasses, server misconfigurations, and API-specific issues.
 </div>

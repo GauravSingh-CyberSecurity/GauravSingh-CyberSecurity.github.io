@@ -7,9 +7,9 @@
 <div align="center">
   
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gaurav-singh-cybersecurity/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white)](https://singhggithub.github.io/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white)](https://GauravSingh-CyberSecurity.github.io/)
 [![HackerRank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/profile/Gaurav_cse_cyber)
-[![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/u/singhggithub/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/u/GauravSingh-CyberSecurity/)
 
 </div>
 
@@ -117,17 +117,17 @@ I'm a **Cybersecurity Engineer** specializing in **Vulnerability Assessment and 
 
 ## 🚀 Featured Projects
 
-### 🔒 [BNHS Incident Response: Broken Auth to RCE Chain](https://singhggithub.github.io/projects/bnhs-incident-response/)
+### 🔒 [BNHS Incident Response: Broken Auth to RCE Chain](https://gauravsingh-cybersecurity.github.io/projects/bnhs-incident-response/)
 **Technologies:** `PHP` `Laravel` `WordPress` `CodeIgniter` `Incident Response` `Backdoor Analysis`
 
 Led end-to-end incident response involving broken authentication leading to RCE exploitation chain, analyzed obfuscated PHP backdoors, removed SEO spam injections, and reinforced server entry vectors.
 
-### 🔧 [Custom Burp Suite Extension for Shell Access Detection](https://singhggithub.github.io/projects/burp-extension-shell-detection/)
+### 🔧 [Custom Burp Suite Extension for Shell Access Detection](https://gauravsingh-cybersecurity.github.io/projects/burp-extension-shell-detection/)
 **Technologies:** `Java` `Burp Suite` `Python` `Security Automation`
 
 Developed sophisticated Burp Suite extension for automated detection of shell access patterns and exploit chain automation during black-box assessments.
 
-### ⚔️ [Offensive Security Tools & PoCs](https://singhggithub.github.io/projects/offensive-security-tools/)
+### ⚔️ [Offensive Security Tools & PoCs](https://gauravsingh-cybersecurity.github.io/projects/offensive-security-tools/)
 **Technologies:** `Python` `Red Team` `Exploit Development` `Automation`
 
 Comprehensive suite of offensive security tools including buffer overflows, bind shells, SSH brute forcing, keyloggers, and hash cracking utilities.
@@ -137,15 +137,15 @@ Comprehensive suite of offensive security tools including buffer overflows, bind
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=singhggithub&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=GauravSingh-CyberSecurity&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=singhggithub&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GauravSingh-CyberSecurity&layout=compact&theme=tokyonight" alt="Top Languages" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=singhggithub&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=GauravSingh-CyberSecurity&theme=tokyonight" alt="GitHub Streak" />
 </div>
 
 ---
@@ -154,11 +154,11 @@ Comprehensive suite of offensive security tools including buffer overflows, bind
 
 ### 📚 **Featured Repository Collections**
 
-[![BurpSuite-For-Pentester](https://github-readme-stats.vercel.app/api/pin/?username=singhggithub&repo=BurpSuite-For-Pentester&theme=tokyonight)](https://github.com/singhggithub/BurpSuite-For-Pentester)
-[![HackTheBox-CTF-Writeups](https://github-readme-stats.vercel.app/api/pin/?username=singhggithub&repo=HackTheBox-CTF-Writeups&theme=tokyonight)](https://github.com/singhggithub/HackTheBox-CTF-Writeups)
+[![BurpSuite-For-Pentester](https://github-readme-stats.vercel.app/api/pin/?username=GauravSingh-CyberSecurity&repo=BurpSuite-For-Pentester&theme=tokyonight)](https://github.com/GauravSingh-CyberSecurity/BurpSuite-For-Pentester)
+[![HackTheBox-CTF-Writeups](https://github-readme-stats.vercel.app/api/pin/?username=GauravSingh-CyberSecurity&repo=HackTheBox-CTF-Writeups&theme=tokyonight)](https://github.com/GauravSingh-CyberSecurity/HackTheBox-CTF-Writeups)
 
-[![awesome-ctf-resources](https://github-readme-stats.vercel.app/api/pin/?username=singhggithub&repo=awesome-ctf-resources&theme=tokyonight)](https://github.com/singhggithub/awesome-ctf-resources)
-[![google-ctf](https://github-readme-stats.vercel.app/api/pin/?username=singhggithub&repo=google-ctf&theme=tokyonight)](https://github.com/singhggithub/google-ctf)
+[![awesome-ctf-resources](https://github-readme-stats.vercel.app/api/pin/?username=GauravSingh-CyberSecurity&repo=awesome-ctf-resources&theme=tokyonight)](https://github.com/GauravSingh-CyberSecurity/awesome-ctf-resources)
+[![google-ctf](https://github-readme-stats.vercel.app/api/pin/?username=GauravSingh-CyberSecurity&repo=google-ctf&theme=tokyonight)](https://github.com/GauravSingh-CyberSecurity/google-ctf)
 
 ---
 
@@ -214,7 +214,7 @@ Comprehensive suite of offensive security tools including buffer overflows, bind
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gs.cyber.red@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gaurav-singh-cybersecurity/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white)](https://singhggithub.github.io/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white)](https://gauravsingh-cybersecurity.github.io/)
 
 **📱 Phone:** +91 9765809266  
 **📍 Location:** Nagpur, Maharashtra, India
@@ -227,7 +227,7 @@ Comprehensive suite of offensive security tools including buffer overflows, bind
 
 ### 💡 **"Making the digital world a safer place, one vulnerability at a time."**
 
-![Profile Views](https://komarev.com/ghpvc/?username=singhggithub&color=brightgreen&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=GauravSingh-CyberSecurity&color=brightgreen&style=for-the-badge)
 
 </div>
 
