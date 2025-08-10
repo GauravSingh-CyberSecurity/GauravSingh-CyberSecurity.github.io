@@ -14,7 +14,7 @@ permalink: /about/
 
 <div style="max-width: 1000px; margin: 0 auto; padding: 0 2rem;">
 
-## 🚀 Professional Background
+<h2 style="color: #2c3e50; margin-bottom: 1.5rem; font-size: 1.8rem;">🚀 Professional Background</h2>
 
 <div style="background: #f8f9fa; padding: 2rem; border-radius: 10px; border-left: 4px solid #3498db; margin: 2rem 0;">
 Hi, I'm <strong>Gaurav Singh</strong> (aka @singhggithub). I'm a <strong>Cybersecurity Engineer</strong> specializing in Vulnerability Assessment and Penetration Testing (VAPT), with hands-on experience in exploiting OWASP Top 10, Web, API, Android misconfigurations, and business logic flaws across enterprise applications.
@@ -22,7 +22,7 @@ Hi, I'm <strong>Gaurav Singh</strong> (aka @singhggithub). I'm a <strong>Cyberse
 Currently working as an <strong>Information Security Engineer at Harrier Information Systems PVT LTD</strong>, I'm proficient in discovering vulnerabilities related to authentication, authorization, injection flaws, business logic bypasses, server misconfigurations, and API-specific issues.
 </div>
 
-## 🛡️ What I Do
+<h2 style="color: #2c3e50; margin-bottom: 1.5rem; font-size: 1.8rem;">🛡️ What I Do</h2>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
 
@@ -53,9 +53,9 @@ Currently working as an <strong>Information Security Engineer at Harrier Informa
 
 </div>
 
-## 💼 Experience & Expertise
+<h2 style="color: #2c3e50; margin-bottom: 1.5rem; font-size: 1.8rem;">💼 Experience & Expertise</h2>
 
-### 🛠️ Technical Skills
+<h3 style="color: #34495e; margin-bottom: 1rem; font-size: 1.4rem;">🛠️ Technical Skills</h3>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
 
@@ -97,7 +97,7 @@ Currently working as an <strong>Information Security Engineer at Harrier Informa
 
 </div>
 
-### 🎓 Current Certifications & Training
+<h3 style="color: #34495e; margin-bottom: 1rem; font-size: 1.4rem;">🎓 Current Certifications & Training</h3>
 
 <div style="background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0;">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
@@ -120,7 +120,7 @@ Currently working as an <strong>Information Security Engineer at Harrier Informa
 </div>
 </div>
 
-## 🚀 Recent Projects
+<h2 style="color: #2c3e50; margin-bottom: 1.5rem; font-size: 1.8rem;">🚀 Recent Projects</h2>
 
 <div style="margin: 2rem 0;">
 
@@ -141,7 +141,7 @@ Currently working as an <strong>Information Security Engineer at Harrier Informa
 
 </div>
 
-## 🎓 Education & Training
+<h2 style="color: #2c3e50; margin-bottom: 1.5rem; font-size: 1.8rem;">🎓 Education & Training</h2>
 
 <div style="background: #f8f9fa; padding: 2rem; border-radius: 10px; border-left: 4px solid #3498db; margin: 2rem 0;">
 <h3 style="color: #2c3e50; margin-bottom: 1rem;">📚 Bachelor of Engineering in Computer Science (Cyber Security)</h3>
@@ -175,7 +175,7 @@ Currently working as an <strong>Information Security Engineer at Harrier Informa
 </div>
 </div>
 
-## 🎮 Personal Interests
+<h2 style="color: #2c3e50; margin-bottom: 1.5rem; font-size: 1.8rem;">🎮 Personal Interests</h2>
 
 <div style="background: white; border: 1px solid #e1e8ed; border-radius: 10px; padding: 2rem; margin: 2rem 0;">
 <p style="margin-bottom: 1rem;">When I'm not diving deep into security research, I enjoy:</p>
@@ -187,7 +187,7 @@ Currently working as an <strong>Information Security Engineer at Harrier Informa
 </ul>
 </div>
 
-## 📞 Let's Connect
+<h2 style="color: #2c3e50; margin-bottom: 1.5rem; font-size: 1.8rem;">📞 Let's Connect</h2>
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; border-radius: 10px; text-align: center; margin: 2rem 0;">
 <h3 style="margin-bottom: 1rem;">🤝 I'm always interested in discussing cybersecurity topics!</h3>
