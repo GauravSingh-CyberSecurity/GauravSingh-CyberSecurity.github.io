@@ -4,86 +4,209 @@ title: About Me
 permalink: /about/
 ---
 
-<div class="hero" style="padding: 2rem 0;">
+<div class="hero" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 3rem 0; text-align: center; margin: -2rem -2rem 2rem -2rem; border-radius: 10px;">
   <div class="hero-content">
-    <img src="{{ '/images/profile.svg' | prepend: site.baseurl }}" alt="{{ site.author.name }}" class="hero-image">
-    <h1 class="hero-title">About {{ site.title }}</h1>
-    <p class="hero-tagline">{{ site.tagline }}</p>
+    <img src="{{ '/images/profile.svg' | prepend: site.baseurl }}" alt="{{ site.author.name }}" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid white; margin-bottom: 1rem;">
+    <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem; font-weight: 700;">About {{ site.title }}</h1>
+    <p style="font-size: 1.2rem; opacity: 0.9;">{{ site.tagline }}</p>
   </div>
 </div>
 
-<div class="wrapper" style="max-width: 800px;">
+<div style="max-width: 1000px; margin: 0 auto; padding: 0 2rem;">
 
-## Professional Background
+## 🚀 Professional Background
 
-Hi, I'm Gaurav Singh (aka @singhggithub). I'm a Cybersecurity Engineer specializing in Vulnerability Assessment and Penetration Testing (VAPT), with hands-on experience in exploiting OWASP Top 10, Web, API, Android misconfigurations, and business logic flaws across enterprise applications.
+<div style="background: #f8f9fa; padding: 2rem; border-radius: 10px; border-left: 4px solid #3498db; margin: 2rem 0;">
+Hi, I'm <strong>Gaurav Singh</strong> (aka @singhggithub). I'm a <strong>Cybersecurity Engineer</strong> specializing in Vulnerability Assessment and Penetration Testing (VAPT), with hands-on experience in exploiting OWASP Top 10, Web, API, Android misconfigurations, and business logic flaws across enterprise applications.
 
-Currently working as an Information Security Engineer at Harrier Information Systems PVT LTD, I'm proficient in discovering vulnerabilities related to authentication, authorization, injection flaws, business logic bypasses, server misconfigurations, and API-specific issues.
+Currently working as an <strong>Information Security Engineer at Harrier Information Systems PVT LTD</strong>, I'm proficient in discovering vulnerabilities related to authentication, authorization, injection flaws, business logic bypasses, server misconfigurations, and API-specific issues.
+</div>
 
-## What I Do
+## 🛡️ What I Do
 
-- **Black-box & Gray-box VAPT**: Comprehensive security assessments focusing on OWASP Top 10, API security flaws, and business logic vulnerabilities
-- **Exploit Development**: Automating test cases and exploit development using Python, Bash, and JavaScript
-- **Incident Response**: Leading end-to-end incident response and post-exploitation VAPT on web applications
-- **Security Tool Development**: Creating custom offensive security tools and PoCs, including Burp Suite extensions
-- **Red Team Operations**: Simulating advanced attacks including Kerberoasting, AS-REP Roasting, and Pass-the-Hash
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
 
-## Experience & Expertise
+<div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border-left: 4px solid #e74c3c;">
+<h3 style="color: #e74c3c; margin-bottom: 1rem;">🔍 Black-box & Gray-box VAPT</h3>
+<p>Comprehensive security assessments focusing on OWASP Top 10, API security flaws, and business logic vulnerabilities</p>
+</div>
 
-### Technical Skills
-- **Web/App Security**: Burp Suite Pro, Postman, OWASP ZAP, Nmap
-- **Exploitation Tools**: SQLMap, Metasploit, Nikto, John the Ripper, Hashcat
-- **Reconnaissance**: FFUF, Subfinder, Gobuster, Amass, WAFW00F
-- **Programming Languages**: Python, JavaScript, Bash
-- **Security Standards**: OWASP Top 10, MITRE ATT&CK, CVE
-- **Attack Vectors**: SQLi, XSS, SSRF, RCE, IDOR, File Inclusion, Auth Bypass, XXE, Command Injection, API Misconfig, BOLA, Broken Auth, CSRF, Subdomain Takeover, Clickjacking, Session Fixation, CORS Misconfig, Insecure Deserialization
+<div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border-left: 4px solid #f39c12;">
+<h3 style="color: #f39c12; margin-bottom: 1rem;">⚡ Exploit Development</h3>
+<p>Automating test cases and exploit development using Python, Bash, and JavaScript</p>
+</div>
 
-### Current Certifications & Training
-- **Bug Bounty Hunter** - Hack The Box Academy (2025)
-- **Practical Ethical Hacking – The Complete Course** - TCM Security (2024)
-- **Intro to Bug Bounty Hunting and Web Application Hacking** - NahamSec (2025)
+<div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border-left: 4px solid #27ae60;">
+<h3 style="color: #27ae60; margin-bottom: 1rem;">🚨 Incident Response</h3>
+<p>Leading end-to-end incident response and post-exploitation VAPT on web applications</p>
+</div>
 
-## Recent Projects
+<div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border-left: 4px solid #9b59b6;">
+<h3 style="color: #9b59b6; margin-bottom: 1rem;">🔧 Security Tool Development</h3>
+<p>Creating custom offensive security tools and PoCs, including Burp Suite extensions</p>
+</div>
 
-### BNHS Incident Response: Broken Auth to RCE Exploitation Chain
-Led end-to-end incident response and conducted post-exploitation VAPT on Laravel, WordPress, and CodeIgniter applications. Successfully analyzed and reversed obfuscated PHP backdoors, removed SEO spam injections, and reinforced server entry vectors against RCE and web shell (Backdoor) attacks.
+<div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border-left: 4px solid #e67e22;">
+<h3 style="color: #e67e22; margin-bottom: 1rem;">🎯 Red Team Operations</h3>
+<p>Simulating advanced attacks including Kerberoasting, AS-REP Roasting, and Pass-the-Hash</p>
+</div>
 
-### Custom Burp Suite Extension Development
-Created custom Burp Suite extension for detecting shell access patterns and automated exploit chains during black-box assessments, significantly improving the efficiency of vulnerability discovery.
+</div>
 
-### Red Team Attack Simulation
-Simulated advanced red team attacks including Kerberoasting, AS-REP Roasting, and Pass-the-Hash using BloodHound and CrackMapExec for internal network reconnaissance and privilege escalation.
+## 💼 Experience & Expertise
 
-## Education & Training
+### 🛠️ Technical Skills
 
-**Bachelor of Engineering in Computer Science (Cyber Security)**  
-Shri Ramdeobaba College of Engineering and Management (RCOEM) - 2024  
-CGPA: 7.6 / 10.0
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
 
-**Relevant Coursework**: Network Security, Operating Systems, Cryptography, Ethical Hacking, Web Application Security, Bug Bounty Hunting
+<div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; text-align: center;">
+<div style="font-size: 2rem; color: #3498db; margin-bottom: 1rem;">🛡️</div>
+<h4 style="color: #2c3e50; margin-bottom: 0.5rem;">Web/App Security</h4>
+<p style="font-size: 0.9rem; color: #7f8c8d;">Burp Suite Pro, Postman, OWASP ZAP, Nmap</p>
+</div>
 
-I believe in continuous learning and regularly participate in security conferences, CTF competitions, and training programs. I also contribute to the security community through:
+<div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; text-align: center;">
+<div style="font-size: 2rem; color: #e74c3c; margin-bottom: 1rem;">🔥</div>
+<h4 style="color: #2c3e50; margin-bottom: 0.5rem;">Exploitation Tools</h4>
+<p style="font-size: 0.9rem; color: #7f8c8d;">SQLMap, Metasploit, Nikto, John the Ripper, Hashcat</p>
+</div>
 
-- **Tool Development**: Creating offensive security tools and PoCs in Python for buffer overflows, bind shells, SSH brute forcing, keyloggers, and hash cracking
-- **Research**: Developing automated exploit chains and vulnerability assessment techniques
-- **Professional Practice**: Delivering detailed technical reports with PoCs and remediation steps for enterprise applications
-- **Mentoring**: Helping organizations strengthen their security posture through comprehensive VAPT assessments
+<div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; text-align: center;">
+<div style="font-size: 2rem; color: #f39c12; margin-bottom: 1rem;">🔍</div>
+<h4 style="color: #2c3e50; margin-bottom: 0.5rem;">Reconnaissance</h4>
+<p style="font-size: 0.9rem; color: #7f8c8d;">FFUF, Subfinder, Gobuster, Amass, WAFW00F</p>
+</div>
 
-## Personal Interests
+<div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; text-align: center;">
+<div style="font-size: 2rem; color: #27ae60; margin-bottom: 1rem;">💻</div>
+<h4 style="color: #2c3e50; margin-bottom: 0.5rem;">Programming</h4>
+<p style="font-size: 0.9rem; color: #7f8c8d;">Python, JavaScript, Bash</p>
+</div>
 
-When I'm not diving deep into security research, I enjoy:
-- Participating in bug bounty programs
-- Contributing to open-source security projects
-- Playing capture-the-flag (CTF) competitions
-- Reading about emerging technologies and their security implications
+<div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; text-align: center;">
+<div style="font-size: 2rem; color: #9b59b6; margin-bottom: 1rem;">📚</div>
+<h4 style="color: #2c3e50; margin-bottom: 0.5rem;">Security Standards</h4>
+<p style="font-size: 0.9rem; color: #7f8c8d;">OWASP Top 10, MITRE ATT&CK, CVE</p>
+</div>
 
-## Let's Connect
+<div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; text-align: center;">
+<div style="font-size: 2rem; color: #e67e22; margin-bottom: 1rem;">⚔️</div>
+<h4 style="color: #2c3e50; margin-bottom: 0.5rem;">Attack Vectors</h4>
+<p style="font-size: 0.9rem; color: #7f8c8d;">SQLi, XSS, SSRF, RCE, IDOR, Auth Bypass, XXE, API Misconfig</p>
+</div>
 
-I'm always interested in discussing cybersecurity topics, sharing knowledge, and collaborating on interesting projects. Feel free to reach out through any of the channels below:
+</div>
 
-- **Email**: [{{ site.email }}](mailto:{{ site.email }})
-- **LinkedIn**: [Connect with me](https://linkedin.com/in/{{ site.linkedin_username }})
-- **GitHub**: [View my projects](https://github.com/{{ site.github_username }})
-- **Twitter**: [Follow me](https://twitter.com/{{ site.twitter_username }})
+### 🎓 Current Certifications & Training
+
+<div style="background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+
+<div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 8px;">
+<h4 style="margin-bottom: 0.5rem;">🎯 Bug Bounty Hunter</h4>
+<p style="opacity: 0.9;">Hack The Box Academy (2025)</p>
+</div>
+
+<div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 8px;">
+<h4 style="margin-bottom: 0.5rem;">🔐 Practical Ethical Hacking</h4>
+<p style="opacity: 0.9;">TCM Security (2024)</p>
+</div>
+
+<div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 8px;">
+<h4 style="margin-bottom: 0.5rem;">🐛 Bug Bounty & Web App Hacking</h4>
+<p style="opacity: 0.9;">NahamSec (2025)</p>
+</div>
+
+</div>
+</div>
+
+## 🚀 Recent Projects
+
+<div style="margin: 2rem 0;">
+
+<div style="background: white; border: 1px solid #e1e8ed; border-radius: 10px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+<h3 style="color: #e74c3c; margin-bottom: 1rem;">🔴 BNHS Incident Response: Broken Auth to RCE Exploitation Chain</h3>
+<p>Led end-to-end incident response and conducted post-exploitation VAPT on Laravel, WordPress, and CodeIgniter applications. Successfully analyzed and reversed obfuscated PHP backdoors, removed SEO spam injections, and reinforced server entry vectors against RCE and web shell (Backdoor) attacks.</p>
+</div>
+
+<div style="background: white; border: 1px solid #e1e8ed; border-radius: 10px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+<h3 style="color: #f39c12; margin-bottom: 1rem;">🔧 Custom Burp Suite Extension Development</h3>
+<p>Created custom Burp Suite extension for detecting shell access patterns and automated exploit chains during black-box assessments, significantly improving the efficiency of vulnerability discovery.</p>
+</div>
+
+<div style="background: white; border: 1px solid #e1e8ed; border-radius: 10px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+<h3 style="color: #9b59b6; margin-bottom: 1rem;">🎯 Red Team Attack Simulation</h3>
+<p>Simulated advanced red team attacks including Kerberoasting, AS-REP Roasting, and Pass-the-Hash using BloodHound and CrackMapExec for internal network reconnaissance and privilege escalation.</p>
+</div>
+
+</div>
+
+## 🎓 Education & Training
+
+<div style="background: #f8f9fa; padding: 2rem; border-radius: 10px; border-left: 4px solid #3498db; margin: 2rem 0;">
+<h3 style="color: #2c3e50; margin-bottom: 1rem;">📚 Bachelor of Engineering in Computer Science (Cyber Security)</h3>
+<p><strong>Shri Ramdeobaba College of Engineering and Management (RCOEM)</strong> - 2024<br>
+<strong>CGPA:</strong> 7.6 / 10.0</p>
+
+<p><strong>Relevant Coursework:</strong> Network Security, Operating Systems, Cryptography, Ethical Hacking, Web Application Security, Bug Bounty Hunting</p>
+</div>
+
+<div style="background: linear-gradient(135deg, #00cec9 0%, #00b894 100%); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0;">
+<h3 style="margin-bottom: 1rem;">🌟 Community Contributions</h3>
+<p>I believe in continuous learning and regularly participate in security conferences, CTF competitions, and training programs. I also contribute to the security community through:</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.5rem;">
+<div style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 6px;">
+<strong>🛠️ Tool Development</strong><br>
+<small>Creating offensive security tools and PoCs in Python</small>
+</div>
+<div style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 6px;">
+<strong>🔬 Research</strong><br>
+<small>Developing automated exploit chains and assessment techniques</small>
+</div>
+<div style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 6px;">
+<strong>📝 Professional Practice</strong><br>
+<small>Delivering detailed technical reports with PoCs</small>
+</div>
+<div style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 6px;">
+<strong>👨‍🏫 Mentoring</strong><br>
+<small>Helping organizations strengthen security posture</small>
+</div>
+</div>
+</div>
+
+## 🎮 Personal Interests
+
+<div style="background: white; border: 1px solid #e1e8ed; border-radius: 10px; padding: 2rem; margin: 2rem 0;">
+<p style="margin-bottom: 1rem;">When I'm not diving deep into security research, I enjoy:</p>
+<ul style="list-style: none; padding: 0;">
+<li style="margin-bottom: 0.5rem;">🏆 Participating in bug bounty programs</li>
+<li style="margin-bottom: 0.5rem;">🌐 Contributing to open-source security projects</li>
+<li style="margin-bottom: 0.5rem;">🚩 Playing capture-the-flag (CTF) competitions</li>
+<li style="margin-bottom: 0.5rem;">📖 Reading about emerging technologies and their security implications</li>
+</ul>
+</div>
+
+## 📞 Let's Connect
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; border-radius: 10px; text-align: center; margin: 2rem 0;">
+<h3 style="margin-bottom: 1rem;">🤝 I'm always interested in discussing cybersecurity topics!</h3>
+<p style="margin-bottom: 2rem; opacity: 0.9;">Feel free to reach out for collaboration, knowledge sharing, or interesting project discussions.</p>
+
+<div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;">
+<a href="mailto:{{ site.email }}" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 0.8rem 1.5rem; border-radius: 25px; transition: all 0.3s ease;">
+📧 Email
+</a>
+<a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 0.8rem 1.5rem; border-radius: 25px; transition: all 0.3s ease;">
+💼 LinkedIn
+</a>
+<a href="https://github.com/{{ site.github_username }}" target="_blank" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 0.8rem 1.5rem; border-radius: 25px; transition: all 0.3s ease;">
+💻 GitHub
+</a>
+<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 0.8rem 1.5rem; border-radius: 25px; transition: all 0.3s ease;">
+🐦 Twitter
+</a>
+</div>
+</div>
 
 </div>
