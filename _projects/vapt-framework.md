@@ -96,7 +96,7 @@ class VAPTFramework:
 
 ```bash
 # Clone the repository
-git clone https://github.com/singhggithub/vapt-framework.git
+git clone https://github.com/GauravSingh-CyberSecurity/vapt-framework.git
 cd vapt-framework
 
 # Install dependencies
@@ -198,7 +198,7 @@ class CustomVulnerabilityCheck(BasePlugin):
 
 ## Contributing
 
-Contributions are welcome! Please see our [contributing guidelines](https://github.com/singhggithub/vapt-framework/blob/main/CONTRIBUTING.md) for details.
+Contributions are welcome! Please see our [contributing guidelines](https://github.com/GauravSingh-CyberSecurity/vapt-framework/blob/main/CONTRIBUTING.md) for details.
 
 ## License
 
@@ -207,8 +207,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 For questions, bug reports, or feature requests:
-- **Email**: [{{ site.email }}](mailto:{{ site.email }})
-- **GitHub Issues**: [Report Issues](https://github.com/singhggithub/vapt-framework/issues)
+- **Email**: [gs.cyber.red@gmail.com](mailto:gs.cyber.red@gmail.com)
+- **GitHub Issues**: [Report Issues](https://github.com/GauravSingh-CyberSecurity/vapt-framework/issues)
 - **Documentation**: [Full Documentation](https://vapt-framework.readthedocs.io)
 
 ---

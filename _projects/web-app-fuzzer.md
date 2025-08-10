@@ -9,6 +9,8 @@ excerpt: "An intelligent web application fuzzer that can discover hidden directo
 
 An intelligent and efficient web application fuzzer designed for comprehensive web security testing and bug bounty hunting.
 
+**Repository**: [GitHub - Web App Fuzzer](https://github.com/GauravSingh-CyberSecurity/web-app-fuzzer)
+
 ## Overview
 
 This fuzzer combines traditional directory/file discovery with advanced parameter fuzzing capabilities. It's built to be fast, intelligent, and thorough in discovering hidden attack surfaces in web applications.
@@ -184,24 +186,46 @@ class WebFuzzer:
 
 ## Usage Examples
 
+## Installation & Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/GauravSingh-CyberSecurity/web-app-fuzzer.git
+cd web-app-fuzzer
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Download wordlists
+wget https://github.com/danielmiessler/SecLists/archive/master.zip
+unzip master.zip
+```
+
+## Usage Examples
+
 ### Basic Directory Fuzzing
 ```bash
-python web_fuzzer.py --url https://example.com --wordlist common.txt --threads 50
+python web_fuzzer.py https://example.com --wordlist common.txt --threads 50
 ```
 
-### Recursive Fuzzing
+### Recursive Fuzzing with Custom Extensions
 ```bash
-python web_fuzzer.py --url https://example.com --wordlist big.txt --recursive --depth 3
+python web_fuzzer.py https://example.com --wordlist big.txt --recursive --depth 3 --extensions php,asp,jsp
 ```
 
-### Parameter Discovery
+### Parameter Discovery Mode
 ```bash
-python web_fuzzer.py --url https://example.com/search --mode params --wordlist params.txt
+python web_fuzzer.py https://example.com/search --mode params --wordlist params.txt --method GET
 ```
 
 ### Subdomain Enumeration
 ```bash
-python web_fuzzer.py --url example.com --mode subdomains --wordlist subdomains.txt
+python web_fuzzer.py example.com --mode subdomains --wordlist subdomains.txt --output subdomains.json
+```
+
+### Advanced Filtering
+```bash
+python web_fuzzer.py https://example.com --wordlist common.txt --filter-codes 404,403 --min-length 100
 ```
 
 ## Wordlist Management

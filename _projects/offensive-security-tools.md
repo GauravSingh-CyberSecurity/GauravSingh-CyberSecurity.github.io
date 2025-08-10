@@ -14,7 +14,7 @@ A comprehensive collection of offensive security tools and proof-of-concept (PoC
 
 This project encompasses the development of various offensive security tools designed to assist in penetration testing, red team operations, and security research. All tools are developed with a focus on educational value and authorized security testing scenarios.
 
-**Repository**: [GitHub - Offensive Security Tools](https://github.com/{{ site.github_username }})
+**Repository**: [GitHub - Offensive Security Tools](https://github.com/GauravSingh-CyberSecurity/offensive-security-tools)
 
 ## Tool Categories
 

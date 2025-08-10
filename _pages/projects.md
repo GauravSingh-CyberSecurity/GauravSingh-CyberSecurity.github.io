@@ -12,68 +12,68 @@ Here's a collection of my cybersecurity projects, tools, and research work. Each
 
 <article class="card">
   <h3 class="card-title">
-    <a href="{{ '/projects/vapt-framework/' | prepend: site.baseurl }}">Automated VAPT Framework</a>
+    <a href="/projects/vapt-framework/">Automated VAPT Framework</a>
   </h3>
   <div class="card-meta">Python, Security Testing, Automation</div>
   <div class="card-excerpt">
     A comprehensive Python framework for automating vulnerability assessment and penetration testing tasks. Features target discovery, vulnerability scanning, exploitation modules, and detailed reporting.
   </div>
-  <a href="{{ '/projects/vapt-framework/' | prepend: site.baseurl }}" class="card-link">View Details →</a>
+  <a href="/projects/vapt-framework/" class="card-link">View Details →</a>
 </article>
 
 <article class="card">
   <h3 class="card-title">
-    <a href="{{ '/blog/2025/01/15/advanced-sql-injection-techniques.html' | prepend: site.baseurl }}">Advanced SQL Injection Scanner</a>
+    <a href="/projects/sql-injection-scanner/">Advanced SQL Injection Scanner</a>
   </h3>
   <div class="card-meta">Python, Web Security, Database Security</div>
   <div class="card-excerpt">
-    An advanced SQL injection detection tool that can identify various types of SQL injection vulnerabilities including blind, time-based, and union-based injections.
+    A comprehensive SQL injection detection and exploitation tool with support for multiple database types, advanced WAF bypass techniques, and automated vulnerability reporting.
   </div>
-  <a href="{{ '/blog/2025/01/15/advanced-sql-injection-techniques.html' | prepend: site.baseurl }}" class="card-link">View Details →</a>
+  <a href="/projects/sql-injection-scanner/" class="card-link">View Details →</a>
 </article>
 
 <article class="card">
   <h3 class="card-title">
-    <a href="{{ '/projects/network-scanner/' | prepend: site.baseurl }}">Custom Network Scanner</a>
+    <a href="/projects/network-scanner/">Custom Network Scanner</a>
   </h3>
   <div class="card-meta">Python, Network Security, Reconnaissance</div>
   <div class="card-excerpt">
     A multi-threaded network scanner with service detection, OS fingerprinting, and vulnerability mapping capabilities. Includes stealth scanning options and custom payload generation.
   </div>
-  <a href="{{ '/projects/network-scanner/' | prepend: site.baseurl }}" class="card-link">View Details →</a>
+  <a href="/projects/network-scanner/" class="card-link">View Details →</a>
 </article>
 
 <article class="card">
   <h3 class="card-title">
-    <a href="{{ '/projects/web-app-fuzzer/' | prepend: site.baseurl }}">Web Application Fuzzer</a>
+    <a href="/projects/web-app-fuzzer/">Web Application Fuzzer</a>
   </h3>
   <div class="card-meta">Python, Web Security, Fuzzing</div>
   <div class="card-excerpt">
     An intelligent web application fuzzer that can discover hidden directories, files, and parameters. Features recursive scanning, custom wordlists, and response analysis.
   </div>
-  <a href="{{ '/projects/web-app-fuzzer/' | prepend: site.baseurl }}" class="card-link">View Details →</a>
+  <a href="/projects/web-app-fuzzer/" class="card-link">View Details →</a>
 </article>
 
 <article class="card">
   <h3 class="card-title">
-    <a href="{{ '/projects/security-dashboard/' | prepend: site.baseurl }}">Security Operations Dashboard</a>
+    <a href="/projects/security-dashboard/">Security Operations Dashboard</a>
   </h3>
   <div class="card-meta">Python, Flask, Data Visualization</div>
   <div class="card-excerpt">
     A real-time security monitoring dashboard that aggregates data from various security tools and presents actionable insights for security teams.
   </div>
-  <a href="{{ '/projects/security-dashboard/' | prepend: site.baseurl }}" class="card-link">View Details →</a>
+  <a href="/projects/security-dashboard/" class="card-link">View Details →</a>
 </article>
 
 <article class="card">
   <h3 class="card-title">
-    <a href="{{ '/projects/malware-analysis/' | prepend: site.baseurl }}">Malware Analysis Toolkit</a>
+    <a href="/projects/malware-analysis/">Malware Analysis Toolkit</a>
   </h3>
   <div class="card-meta">Python, Malware Analysis, Reverse Engineering</div>
   <div class="card-excerpt">
     A collection of tools for static and dynamic malware analysis, including string extraction, behavioral analysis, and report generation capabilities.
   </div>
-  <a href="{{ '/projects/malware-analysis/' | prepend: site.baseurl }}" class="card-link">View Details →</a>
+  <a href="/projects/malware-analysis/" class="card-link">View Details →</a>
 </article>
 
 </div>
