@@ -6,9 +6,9 @@ permalink: /about/
 
 <div class="hero" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 3rem 0; text-align: center; margin: -2rem -2rem 2rem -2rem; border-radius: 10px;">
   <div class="hero-content">
-    <img src="{{ '/images/profile.svg' | prepend: site.baseurl }}" alt="{{ site.author.name }}" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid white; margin-bottom: 1rem;">
-    <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem; font-weight: 700;">About {{ site.title }}</h1>
-    <p style="font-size: 1.2rem; opacity: 0.9;">{{ site.tagline }}</p>
+    <img src="/images/profile.svg" alt="Gaurav Singh" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid white; margin-bottom: 1rem;">
+    <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem; font-weight: 700;">About Gaurav Singh</h1>
+    <p style="font-size: 1.2rem; opacity: 0.9;">VAPT | Cyber Security Engineer | Penetration Testing</p>
   </div>
 </div>
 
@@ -194,16 +194,16 @@ Currently working as an <strong>Information Security Engineer at Harrier Informa
 <p style="margin-bottom: 2rem; opacity: 0.9;">Feel free to reach out for collaboration, knowledge sharing, or interesting project discussions.</p>
 
 <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;">
-<a href="mailto:{{ site.email }}" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 0.8rem 1.5rem; border-radius: 25px; transition: all 0.3s ease;">
+<a href="mailto:gs.cyber.red@gmail.com" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 0.8rem 1.5rem; border-radius: 25px; transition: all 0.3s ease;">
 📧 Email
 </a>
-<a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 0.8rem 1.5rem; border-radius: 25px; transition: all 0.3s ease;">
+<a href="https://linkedin.com/in/gaurav-singh-cybersecurity" target="_blank" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 0.8rem 1.5rem; border-radius: 25px; transition: all 0.3s ease;">
 💼 LinkedIn
 </a>
-<a href="https://github.com/{{ site.github_username }}" target="_blank" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 0.8rem 1.5rem; border-radius: 25px; transition: all 0.3s ease;">
+<a href="https://github.com/GauravSingh-CyberSecurity" target="_blank" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 0.8rem 1.5rem; border-radius: 25px; transition: all 0.3s ease;">
 💻 GitHub
 </a>
-<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 0.8rem 1.5rem; border-radius: 25px; transition: all 0.3s ease;">
+<a href="https://twitter.com/your-twitter-username" target="_blank" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 0.8rem 1.5rem; border-radius: 25px; transition: all 0.3s ease;">
 🐦 Twitter
 </a>
 </div>
